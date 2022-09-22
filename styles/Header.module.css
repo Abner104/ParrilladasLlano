@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -4.3rem;
+}
+
+.cart > span {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.badge {
+  position: relative;
+  display: flex;
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  right: 0.7rem;
+  left: 1.1rem;
+  margin-top: -2.1rem;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: -3.1rem;
+  margin-top: 1.8rem;
+}

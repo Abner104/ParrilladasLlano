@@ -1,0 +1,38 @@
+{
+  "name": "pizzashop",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@iconscout/react-unicons": "^1.1.6",
+    "@iconscout/unicons": "^4.0.1",
+    "@mantine/core": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@mui/material": "^5.10.3",
+    "@sanity/client": "^3.3.6",
+    "@sanity/image-url": "^1.0.1",
+    "@stripe/stripe-js": "^1.32.0",
+    "bootstrap": "^5.2.0",
+    "next": "12.2.0",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.5.0",
+    "react-dom": "18.2.0",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.4.0",
+    "react-router-dom": "6",
+    "stripe": "^9.12.0",
+    "toaster": "^0.1.2",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "devDependencies": {
+    "eslint": "8.19.0",
+    "eslint-config-next": "12.2.0"
+  }
+}

@@ -1,0 +1,61 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 40%;
+}
+.details > div {
+  display: flex;
+  justify-content: space-between;
+}
+.details > div > span:nth-child(2) {
+  font-weight: 600;
+}
+.statusContainer {
+  display: flex;
+  gap: 5rem;
+}
+.status {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 3rem;
+  position: relative;
+  align-items: center;
+}
+.spinner {
+  position: absolute;
+  left: -2.5rem;
+  top: -1.5rem;
+  width: 8rem;
+}
+.pending {
+  width: max-content;
+  background-color: rgb(160, 8, 8);
+  padding: 0.5rem;
+  font-size: 0.8rem;
+  border-radius: 1rem;
+  color: white;
+}
+.completed {
+  border-radius: 1rem;
+  color: white;
+  background-color: rgb(61, 196, 28);
+  padding: 0.5rem;
+  font-size: 0.7rem;
+}
+.title {
+  margin-top: -1.6rem;
+}
